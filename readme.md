@@ -8,7 +8,7 @@
 git clone repo-link
 ```
 
-- create a database name "assessment_api"
+- create a database name "assessment_api" in your local MySQL instance
 - build the application by running the following commands:
 
 ```
@@ -17,7 +17,7 @@ composer install
 cp .env.example .env
 ```
 
-- update the database credentials (host, username, password) in .env file depending on your running database services
+- update the database credentials (host, username, password) in .env file depending on your running MySQL instance
 - once done, continue on building the application by running:
 
 ```
